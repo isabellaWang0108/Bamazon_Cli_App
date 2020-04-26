@@ -1,13 +1,19 @@
 # CLI app using Node.js & MySQL
-
+Once you download the app,
+```javascript
+run npm install
+```
 ## customer side
-``` run npm install```
+
  The app will show users with two messages.
 
    * The first should ask them the ID of the product they would like to buy.
    * The second message should ask how many units of the product they would like to buy.
 
-``` run node bamazon```
+```javascript 
+run node bamazon
+```
+
 Then you will see
 ![Image description](https://wangx733.github.io/cli-apps/bamazon/images/1.png)
 
@@ -24,7 +30,10 @@ Iif your store _does_ have enough of the product, you we will fulfill the custom
 
 
 ## Manager side
-```run node bamazonManager```
+```javascript 
+run node bamazonManager
+```
+
 Then you will see
 ![Image description](https://wangx733.github.io/cli-apps/bamazon/images/5.png)
 
